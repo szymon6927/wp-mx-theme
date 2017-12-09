@@ -242,3 +242,17 @@ h6,
     padding: 15px;
     border: 1px solid #ccc;
 }
+
+.blog-nav a {
+    color: #fff;
+}
+
+.blog-nav a:hover {
+    color: #666;
+}
+
+.post-thumb img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+}
