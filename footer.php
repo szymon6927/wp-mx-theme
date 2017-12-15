@@ -13,10 +13,16 @@
     </div>
     <!-- /.container -->
     </div>
+    <p id="back-top" style="display: block;"><a title="Przejdź do góry strony" class="defaultCursor">Przejdź do góry strony</a></p>
     <footer class="blog-footer">
-        <p>&copy; <?php echo Date('Y'); ?> - <?php bloginfo('name') ?><p>
-            <a href="#">Back to top</a>
-        </p>
+        <div class="container">
+            <div class="col-sm-6 col-xs-12 text-left">
+                <span>Copyright © <?php echo Date('Y'); ?> <strong><?php bloginfo('name') ?></strong> All Rights Reserved</span>
+            </div>
+            <div class="col-sm-6 col-xs-12 text-right">
+                <p class="created">Created by <a href="mailto:miks.szymon@gmail.com">Szymon Miks</a></p>
+            </div>
+        </div>
     </footer>
 
     <?php wp_footer(); ?>
