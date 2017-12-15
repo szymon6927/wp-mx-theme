@@ -10,12 +10,68 @@
                 <p class="text-faded mb-5">
                     <?php echo get_theme_mod('showcase_text', 'Lorem ipsum dolor sit amet'); ?>
                 </p>
-                <a href="<?php echo get_theme_mod('btn_url', 'http://test.pl'); ?>" class="btn btn-primary btn-xl js-scroll-trigger"><?php echo get_theme_mod('btn_text', 'Read More'); ?></a>
+                <a href="<?php echo get_theme_mod('btn_url', 'http://test.pl'); ?>" class="btn btn-xl js-scroll-trigger custom-btn"><?php echo get_theme_mod('btn_text', 'Read More'); ?></a>
             </div>
         </div>
     </div>
-    <!-- <section class="showcase">
-    </section> -->
+
+    <section class="bg-primary box-shadow pad80" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 text-center">
+            <h2 class="section-heading text-white">Czym się zajmujemy!</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4">
+            Celem prac Studenckiego Koła Naukowego Genetyków Zwierząt jest poznanie sekwencji genów kandydatów odpowiadających za proces melanogenzey 
+            oraz określenie wpływu mutacji/polimorfizmów w nich obserwowanych na modelu norki amerykańskiej Neovison vison.</p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="pad80">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">W chwili obecnej trwają prace na genami</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Pax3</h3>
+              <p class="text-muted mb-0">czynnik transkrypcyjny paired-box</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">KIT</h3>
+              <p class="text-muted mb-0">receptor kinazy tyrozynowej</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">EDNRB</h3>
+              <p class="text-muted mb-0">receptor endoteliny typu B.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">MITF</h3>
+              <p class="text-muted mb-0">czynnik transkrypcyjny związany z mikroftalmią</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="boxes">
         <div class="container">
@@ -37,6 +93,38 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section class="bg-dark box-shadow pad80 text-white achievements">
+      <div class="container text-center">
+        <h2 class="mb-4">Zobacz nasze osiagniecia</h2>
+        <hr class="contrast">
+        <a class="btn btn-light custom-btn btn-xl" href="#">Czytaj więcej!</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Zainteresowany?</h2>
+            <hr class="my-4">
+            <p class="mb-5">Zostaw nam kontakt do Siebie</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
+            <p>123-456-6789</p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+            <p>
+              <a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <?php get_footer(); ?>
