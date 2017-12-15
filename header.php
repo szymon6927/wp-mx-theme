@@ -27,7 +27,7 @@
             </style>
     <?php endif; ?>
     <!-- Custom styles for this template -->
-    <link href="<?php bloginfo('template_url'); ?>/css/creative.min.css" rel="stylesheet">
+    <!-- <link href="<?php bloginfo('template_url'); ?>/css/creative.min.css" rel="stylesheet"> -->
     <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -50,7 +50,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><?php bloginfo('name'); ?></a>
+          <a class="navbar-brand" href="/wp-kolo-naukowe/"><?php bloginfo('name'); ?></a>
         </div>
         <?php
             wp_nav_menu( array(
