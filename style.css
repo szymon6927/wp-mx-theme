@@ -466,3 +466,8 @@ ul.nav li.dropdown:hover>ul.dropdown-menu {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+
+#patronate {
+    background: #fafafa;
+    border-bottom: 2px solid #cacaca;
+}
