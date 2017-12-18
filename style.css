@@ -400,3 +400,12 @@ hr {
 .boxes {
     display: none;
 }
+
+.heading-desc {
+    font-size: 21px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-bottom: 2px solid #fafafa;
+    padding-bottom: 15px;
+}
