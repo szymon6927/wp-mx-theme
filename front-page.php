@@ -7,7 +7,7 @@
                     <strong><?php echo get_theme_mod('showcase_heading'); ?></strong>
                 </h1>
                 <hr>
-                <p class="text-faded mb-5">
+                <p class="text-faded heading-desc mb-5">
                     <?php echo get_theme_mod('showcase_text', 'Lorem ipsum dolor sit amet'); ?>
                 </p>
                 <a href="<?php echo get_theme_mod('btn_url', 'http://test.pl'); ?>" class="btn btn-xl js-scroll-trigger custom-btn"><?php echo get_theme_mod('btn_text', 'Read More'); ?></a>
