@@ -137,9 +137,9 @@
     <section id="patronate" class="pad80">
       <div class="container">
         <div class="row">
-          <h2>Wspomagają nas</h2>
+          <h2 class="text-center">Wspomagają nas</h2>
           <hr>
-          <div class="col-sm-4 col-sm-offset-4">
+          <div class="col-sm-4 col-sm-offset-4 mt20">
             <a href="https://pl.promega.com/">
               <img src="https://wwwen.uni.lu/var/storage/images/media/images/promega_logo_sol/1146786-1-fre-FR/promega_logo_sol.jpg" class="img-responsive patronate-logo" alt="Promega logo">
             </a>
