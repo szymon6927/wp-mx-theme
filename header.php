@@ -13,7 +13,7 @@
         <?php bloginfo('name'); ?> | 
         <?php is_front_page() ? bloginfo('description') : wp_title(); ?>
     </title>
-
+    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.png" />
     <!-- Bootstrap core CSS -->
     <link href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
