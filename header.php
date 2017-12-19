@@ -62,12 +62,6 @@
       </div>
     </nav>
 
-    <div class="<?php if(is_front_page()) : ?>container-fluid <?php else: ?> container<?php endif; ?>">
+    <div class="<?php if(is_front_page()) : ?>container-fluid <?php else: ?> container mt80<?php endif; ?>">
         <div class="row">
         
-        <?php if(!is_front_page()) : ?>
-        <div class="blog-header">
-            <h1 class="blog-title"><?php bloginfo('name'); ?></h1>
-            <p class="lead blog-description"><?php bloginfo('description'); ?> </p>
-        </div>
-        <?php endif; ?>
