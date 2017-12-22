@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-    <div id="particles-js" class="masthead">
+    <div id="particles-js">
         <div class="text-on-slider">
             <div class="text-wrapper">
                 <h1 class="text-uppercase">
