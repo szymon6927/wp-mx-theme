@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+    <div class="container">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
             <h1 class="page-title mb20"><?php single_post_title(); ?></h1>
         </div>
@@ -37,5 +37,5 @@
         <?php else : ?>
             <p><?php __('No Posts Found'); ?></p>
         <?php endif; ?>
-
-    <?php get_footer(); ?>
+    </div>
+<?php get_footer(); ?>
