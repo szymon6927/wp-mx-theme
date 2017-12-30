@@ -17,7 +17,7 @@
         </div>
     </div>
 
-    <section class="bg-primary box-shadow pad80" id="about">
+    <section class="bg-primary box-shadow pad80 pad-xs-45" id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -34,7 +34,7 @@
       </div>
     </section>
 
-    <section id="services" class="pad80">
+    <section id="services" class="pad80 pad-xs-45">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -99,11 +99,11 @@
         </div>
     </section>
 
-    <section class="bg-dark box-shadow pad80 text-white achievements">
+    <section class="bg-dark box-shadow pad80 pad-xs-45 text-white achievements">
       <div class="container text-center">
         <h2 class="mb-4"><?php echo get_theme_mod('OurAchievements_heading'); ?></h2>
         <hr class="contrast">
-        <div class="col-sm-4 col-xs-6">
+        <div class="col-md-4 col-sm-4 col-xs-12">
           <div class="achievements-item">
             <div class="achievements-title text-center">
               <i class="fa fa-trophy" aria-hidden="true"></i>
@@ -113,7 +113,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4 col-xs-6">
+        <div class="col-md-4 col-sm-4 col-xs-12">
           <div class="achievements-item">
             <div class="achievements-title text-center">
               <i class="fa fa-trophy" aria-hidden="true"></i>
@@ -123,7 +123,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4 col-xs-6">
+        <div class="col-md-4 col-sm-4 col-xs-12">
           <div class="achievements-item">
             <div class="achievements-title text-center">
               <i class="fa fa-trophy" aria-hidden="true"></i>
@@ -139,7 +139,7 @@
       </div>
     </section>
 
-    <section id="patronate" class="pad80">
+    <section id="patronate" class="pad80 pad-xs-45">
       <div class="container">
         <div class="row">
           <h2 class="text-center">Wspomagają nas</h2>
@@ -153,7 +153,7 @@
       </div>
     </section>
 
-    <section id="contact" class="pad80">
+    <section id="contact" class="pad80 pad-xs-45">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 text-center">

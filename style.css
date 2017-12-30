@@ -276,7 +276,7 @@ body {
 }
 
 .text-wrapper h1 {
-    font-size: 64px;
+    font-size: 6rem;
     color: #222;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     letter-spacing: 0.05em;
@@ -309,10 +309,6 @@ body {
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 0.03em;
-}
-
-.navbar-nav {
-    float: right;
 }
 
 .navbar-default .navbar-brand {
@@ -398,10 +394,6 @@ hr {
     border: 1px solid #cacaca;
 }
 
-ul.nav li.dropdown:hover>ul.dropdown-menu {
-    display: block;
-}
-
 .patronate-logo {
     border-radius: 10px;
     transition: .25s;
@@ -443,15 +435,18 @@ ul.nav li.dropdown:hover>ul.dropdown-menu {
     margin-bottom: 0;
     height: 35rem;
 }
+
 .thumb-in-content {
     max-width: 400px;
     float: left;
     margin: 0 30px 10px 0;
 }
+
 .blog-post {
     font-size: 19px;
     margin-bottom: 50px;
 }
+
 #patronate {
     background: #fafafa;
     border-bottom: 2px solid #cacaca;
@@ -597,10 +592,12 @@ div.masthead .overlay {
     background-color: #212529;
     opacity: .5;
 }
+
 div.masthead .post-heading {
     padding: 200px 0 150px;
     color: #fff;
 }
+
 div.masthead .post-heading h1 {
     font-size: 35px;
 }
@@ -608,6 +605,7 @@ div.masthead .post-heading h1 {
 .meta a {
     color: #fff;
 }
+
 .meta a:hover {
     color: #bc2336;
 }
@@ -616,7 +614,6 @@ div.masthead .post-heading h1 {
 .navbar-default .navbar-brand:hover {
     color: #b94e5b;
 }
-
 
 @media (max-width: 1100px) {
     .navbar-default .navbar-nav>li>a {
@@ -630,12 +627,36 @@ div.masthead .post-heading h1 {
         line-height: 25px;
     }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+
+@media(max-width: 991px) {
+    body {
+        font-size: 14px;
+    }
+    .caret {
+        border-top: 7px dashed;
+        border-top: 4px solid\9;
+        border-right: 7px solid transparent;
+        border-left: 7px solid transparent;
+        float: right;
+        margin-top: 15px;
+    }
+    .navbar-nav .open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: #ffffff;
+        color: #000;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
     .navbar-collapse.collapse {
         display: none !important;
     }
     .navbar-collapse.collapse.in {
         display: block !important;
+        padding: 15px;
     }
     .navbar-header .collapse,
     .navbar-toggle {
@@ -648,9 +669,72 @@ div.masthead .post-heading h1 {
         float: none;
     }
     .navbar-nav {
-        float: none;
+        width: 100%;
+        margin: 0;
+    }
+    .navbar-default {
+        background-color: #222;
+        border-color: #e7e7e7;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #4c4c4c;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+        color: #000;
+        background-color: transparent;
+    }
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse {
+        max-height: initial;
+    }
+    .text-wrapper {
+        width: 70vw;
+    }
+    .wbihz img {
+        width: 75%;
     }
 }
+
+@media (min-width: 991px) {
+    ul.nav li.dropdown:hover>ul.dropdown-menu {
+        display: block;
+    }
+    .navbar-nav {
+        float: right;
+    }
+}
+
+@media (max-width: 768px) {
+    .pad-xs-45 {
+        padding: 45px 0;
+    }
+    .achievements {
+        height: auto;
+    }
+    .achievements-item {
+        margin-bottom: 15px;
+    }
+    .patronate-logo {
+        width: 40%;
+        margin: 0 auto;
+    }
+    .wbihz img {
+        margin-bottom: 20px;
+    }
+    .wbihz img, .zut img {
+        width: 40%;
+    }
+    .text-center-xs {
+        text-align: center;
+    }
+    .achievements-desc {
+        height: auto;
+    }
+    .post-thumb img {
+        height: auto;
+    }
+}
+
 @media only screen and (min-width: 768px) {
     div.masthead .post-heading {
         padding: 130px 0;
@@ -659,5 +743,27 @@ div.masthead .post-heading h1 {
         font-size: 55px;
         font-variant: small-caps;
         font-weight: 700;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-wrapper h1 {
+        font-size: 4rem;
+    }
+    .heading-desc {
+        font-size: 18px;
+    }
+    .text-on-slider {
+        top: 20%;
+    }
+    .custom-btn {
+        font-size: 12px;
+    }
+    .achievements-title {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+    .achievements-item {
+        padding: 15px;
     }
 }
