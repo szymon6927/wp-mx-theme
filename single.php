@@ -3,7 +3,7 @@
         <?php while(have_posts()) : the_post(); ?>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="masthead" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/analysis2.jpg')">
+                    <div class="masthead" style="background-image: url('<?php echo get_stylesheet_directory_uri(); ?>/img/3501-mnijesze-crop.jpeg')">
                         <div class="overlay"></div>
                         <div class="container">
                             <div class="row">
