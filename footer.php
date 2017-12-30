@@ -26,10 +26,10 @@
         </div>
         <div class="container-fluid bottom-footer">
             <div class="container">
-                <div class="col-sm-6 col-xs-12 text-left">
+                <div class="col-sm-6 col-xs-12 text-left text-center-xs">
                     <span>Copyright © <?php echo Date('Y'); ?> <strong><?php bloginfo('name') ?></strong> All Rights Reserved</span>
                 </div>
-                <div class="col-sm-6 col-xs-12 text-right">
+                <div class="col-sm-6 col-xs-12 text-right text-center-xs">
                     <p class="created">Created by <a href="mailto:miks.szymon@gmail.com">Szymon Miks</a></p>
                 </div>
             </div>
