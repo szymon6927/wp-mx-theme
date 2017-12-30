@@ -10,7 +10,9 @@
                 <p class="text-faded heading-desc mb-5">
                     <?php echo get_theme_mod('showcase_text', 'Lorem ipsum dolor sit amet'); ?>
                 </p>
-                <a id="see-more" href="<?php echo get_theme_mod('btn_url', 'http://test.pl'); ?>" class="btn btn-xl js-scroll-trigger custom-btn"><?php echo get_theme_mod('btn_text', 'Read More'); ?></a>
+                <a id="see-more" href="<?php echo get_theme_mod('showcase_btn_url', 'http://test.pl'); ?>" class="btn btn-xl js-scroll-trigger custom-btn">
+                  <?php echo get_theme_mod('showcase_btn_text', 'Read More'); ?>
+                </a>
             </div>
         </div>
     </div>
@@ -19,12 +21,14 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 text-center">
-            <h2 class="section-heading text-white">Czym się zajmujemy!</h2>
+            <h2 class="section-heading text-white"><?php echo get_theme_mod('WideParagraph_heading', 'Lorem ipsum dolor sit amet'); ?></h2>
             <hr class="light my-4">
             <p class="text-faded mb-4">
-            Celem prac Studenckiego Koła Naukowego Genetyków Zwierząt jest poznanie sekwencji genów kandydatów odpowiadających za proces melanogenzey 
-            oraz określenie wpływu mutacji/polimorfizmów w nich obserwowanych na modelu norki amerykańskiej Neovison vison.</p>
-            <a id="go-to-services" class="btn btn-light btn-xl js-scroll-trigger custom-btn">Czytaj więcej!</a>
+            <?php echo get_theme_mod('WideParagraph_text', 'Lorem ipsum dolor sit amet'); ?>
+            </p>
+            <a id="go-to-services" href="<?php echo get_theme_mod('paragraph_btn_url', 'http://test.pl'); ?>" class="btn btn-light btn-xl js-scroll-trigger custom-btn">
+              <?php echo get_theme_mod('paragraph_btn_text', 'Read More'); ?>
+            </a>
           </div>
         </div>
       </div>
@@ -34,7 +38,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">W chwili obecnej trwają prace nad genami:</h2>
+            <h2 class="section-heading"><?php echo get_theme_mod('WorkingAt_heading', 'W chwili obecnej trwają prace nad:'); ?></h2>
             <hr class="my-4">
           </div>
         </div>
@@ -44,29 +48,29 @@
           <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center mb15">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">Pax3</h3>
-              <p class="text-muted mb-0">czynnik transkrypcyjny paired-box</p>
+              <h3 class="mb-3"><?php echo get_theme_mod('Work-title0'); ?></h3>
+              <p class="text-muted mb-0"><?php echo get_theme_mod('Work-desc0'); ?></p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center mb15">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">KIT</h3>
-              <p class="text-muted mb-0">receptor kinazy tyrozynowej</p>
+              <h3 class="mb-3"><?php echo get_theme_mod('Work-title1'); ?></h3>
+              <p class="text-muted mb-0"><?php echo get_theme_mod('Work-desc1'); ?></p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center mb15">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">EDNRB</h3>
-              <p class="text-muted mb-0">receptor endoteliny typu B.</p>
+              <h3 class="mb-3"><?php echo get_theme_mod('Work-title2'); ?></h3>
+              <p class="text-muted mb-0"><?php echo get_theme_mod('Work-desc2'); ?></p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12  text-center mb15">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
-              <h3 class="mb-3">MITF</h3>
-              <p class="text-muted mb-0">czynnik transkrypcyjny związany z mikroftalmią</p>
+              <h3 class="mb-3"><?php echo get_theme_mod('Work-title3'); ?></h3>
+              <p class="text-muted mb-0"><?php echo get_theme_mod('Work-desc3'); ?></p>
             </div>
           </div>
         </div>
@@ -97,7 +101,7 @@
 
     <section class="bg-dark box-shadow pad80 text-white achievements">
       <div class="container text-center">
-        <h2 class="mb-4">Nasze osiągnięcia</h2>
+        <h2 class="mb-4"><?php echo get_theme_mod('OurAchievements_heading'); ?></h2>
         <hr class="contrast">
         <div class="col-sm-4 col-xs-6">
           <div class="achievements-item">
@@ -105,8 +109,7 @@
               <i class="fa fa-trophy" aria-hidden="true"></i>
             </div>
             <div class="achievements-desc">
-              <p>Zdeponowanie w National Center of Biotechnology Information (NCBI) pionierskich sekwencji genów EDNRB, 
-                PAX3 oraz KIT norki amerykańskiej (Neovison vison).</p>
+              <p><?php echo get_theme_mod('OurAchievements-desc0'); ?></p>
             </div>
           </div>
         </div>
@@ -116,7 +119,7 @@
               <i class="fa fa-trophy" aria-hidden="true"></i>
             </div>
             <div class="achievements-desc">
-              <p>Wystawienie referatu pt. "Rola genu KIT w procesie melanogenezy" podczas studenckiej sesji kół naukowych na ZUT w Szczecinie.</p>
+              <p><?php echo get_theme_mod('OurAchievements-desc1'); ?></p>
             </div>
           </div>
         </div>
@@ -126,11 +129,13 @@
               <i class="fa fa-trophy" aria-hidden="true"></i>
             </div>
             <div class="achievements-desc">
-              <p>Wystawienie referatu pt. "Rola genu PAX3 w procesie melanogenezy" podczas studenckiej sesji kół naukowych na ZUT w Szczecinie.</p>
+              <p><?php echo get_theme_mod('OurAchievements-desc2'); ?></p>
             </div>
           </div>
         </div>
-        <a class="btn btn-light custom-btn btn-xl mt30" href="#">Zobacz więcej!</a>
+        <a class="btn btn-light custom-btn btn-xl mt30" href="<?php echo get_theme_mod('OurAchievements_btn_url'); ?>">
+          <?php echo get_theme_mod('OurAchievements_btn_text', 'Read More'); ?>
+        </a>
       </div>
     </section>
 
@@ -152,21 +157,23 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 text-center">
-            <h2 class="section-heading">Zainteresowany?</h2>
+            <h2 class="section-heading"><?php echo get_theme_mod('contact_heading'); ?></h2>
             <hr class="my-4">
-            <p class="mb-5">Zostaw nam kontakt do Siebie</p>
+            <p class="mb-5"><?php echo get_theme_mod('contact_desc'); ?></p>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 text-center mt20">
             <div class="col-lg-6 text-center">
               <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-              <p>+(48) 123-456-6789</p>
+              <p>
+                <a href="tel:<?php echo str_replace(' ', '', get_theme_mod('contact_tel')); ?>"><?php echo get_theme_mod('contact_tel'); ?></a>
+              </p>
             </div>
             <div class="col-lg-6 text-center">
               <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
               <p>
-                <a href="mailto:miks.szymon@gmail.com">miks.szymon@gmail.com</a>
+                <a href="mailto:<?php echo get_theme_mod('contact_mail'); ?>"><?php echo get_theme_mod('contact_mail'); ?></a>
               </p>
             </div>
           </div>
