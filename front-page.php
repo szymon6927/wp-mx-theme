@@ -10,7 +10,7 @@
                 <p class="text-faded heading-desc mb-5">
                     <?php echo get_theme_mod('showcase_text', 'Lorem ipsum dolor sit amet'); ?>
                 </p>
-                <a href="<?php echo get_theme_mod('btn_url', 'http://test.pl'); ?>" class="btn btn-xl js-scroll-trigger custom-btn"><?php echo get_theme_mod('btn_text', 'Read More'); ?></a>
+                <a id="see-more" href="<?php echo get_theme_mod('btn_url', 'http://test.pl'); ?>" class="btn btn-xl js-scroll-trigger custom-btn"><?php echo get_theme_mod('btn_text', 'Read More'); ?></a>
             </div>
         </div>
     </div>
@@ -24,7 +24,7 @@
             <p class="text-faded mb-4">
             Celem prac Studenckiego Koła Naukowego Genetyków Zwierząt jest poznanie sekwencji genów kandydatów odpowiadających za proces melanogenzey 
             oraz określenie wpływu mutacji/polimorfizmów w nich obserwowanych na modelu norki amerykańskiej Neovison vison.</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger custom-btn" href="#services">Czytaj więcej!</a>
+            <a id="go-to-services" class="btn btn-light btn-xl js-scroll-trigger custom-btn">Czytaj więcej!</a>
           </div>
         </div>
       </div>
@@ -41,28 +41,28 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center mb15">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">Pax3</h3>
               <p class="text-muted mb-0">czynnik transkrypcyjny paired-box</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center mb15">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-paper-plane text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">KIT</h3>
               <p class="text-muted mb-0">receptor kinazy tyrozynowej</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 text-center mb15">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">EDNRB</h3>
               <p class="text-muted mb-0">receptor endoteliny typu B.</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12  text-center mb15">
             <div class="service-box mt-5 mx-auto">
               <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
               <h3 class="mb-3">MITF</h3>
