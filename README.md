@@ -1,4 +1,4 @@
-# w-mx-theme
+# wp-mx-theme
 
 ### My first theme for wordpress
 
